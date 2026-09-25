@@ -1,0 +1,28 @@
+.navbar{
+  display: flex;
+  gap: 30px;
+  background-color: antiquewhite;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
+.nav-links{
+  display: flex;
+  gap: 30px;
+ 
+}
+.nav-link{
+  text-decoration: none;
+   border-radius: 8px;
+   padding: 5px;
+   color: #9274d1;
+}
+.nav-link:hover{
+  transform: translate(-10px);
+   border: 3px solid white;
+}
