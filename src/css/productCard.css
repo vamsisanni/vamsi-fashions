@@ -47,6 +47,9 @@
   background-color: transparent;
 
 }
+.cart-btn:hover{
+  background-color: antiquewhite;
+}
 .buy-btn{
   padding: 3px;
   border-radius: 8px;
