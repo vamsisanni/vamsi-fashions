@@ -10,6 +10,7 @@ import Women from './pages/women'
 import NavBar from './components/NavBar'
 import Cart from './pages/Cart'
 import Orders from './pages/Orders'
+import Product from './components/Product'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -46,6 +47,7 @@ function App() {
       <Route path='/women' element={<Women products={products} />}/>
       <Route path='/cart' element={<Cart />} />
       <Route  path='/orders' element={<Orders />}/>
+      <Route path='/product/:id' element={<Product  products={products}/>} />
      </Routes>
     </>
   )

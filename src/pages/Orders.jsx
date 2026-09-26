@@ -1,7 +1,10 @@
 function Orders(){
   return (
     <div className="orders-container">
-      <h3>orders are empty</h3>
+      <h3>orders page</h3>
+      <div className="order-products">
+        {}
+      </div>
     </div>
   )
 }
